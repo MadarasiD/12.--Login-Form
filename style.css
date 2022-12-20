@@ -1,0 +1,99 @@
+body {
+    background: #e19683;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#container {
+    background: #fff;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+#bg {
+    width: 40%;
+    height: 580px;
+    background: url("hegy.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+form {
+
+    width: 60%;
+    float: right;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+form h2 {
+    font-weight: 400;
+}
+
+
+form input, button { 
+    display: block;
+    width: 90%;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form input {
+    width: 85%;
+    border: 1px solid #d9d9d9;
+}
+
+.input-container {
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 15px;
+}
+
+form button {
+    background:  #337ef5;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+form button:hover {
+    background-color: rgb(26, 26, 94);
+}
+
+#google {
+    background: red;
+}
+
+#google:hover {
+    background: rgb(95, 22, 22);
+}
+
+#face {
+    background: rgb(53, 29, 156);
+}
+
+#face:hover {
+    background: rgb(21, 5, 89);
+}
+
+.link {
+    font-size: 15px;
+    color: #337ef5;
+}
